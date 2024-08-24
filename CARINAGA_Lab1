@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
-        System.out.print("Enter number: ");
-        int n = scanner.nextInt();
+        int n = Integer.parseInt(System.console().readLine("Enter number: "));
         
         System.out.println("*");
         
@@ -31,7 +29,5 @@ public class Main {
         }
         
         System.out.println("*");
-        
-        scanner.close();
     }
 }
